@@ -139,7 +139,7 @@ nav{
     color:rgb(37, 175, 37);
 }
 
-@media (max-width:900px) {
+@media (max-width:1000px) {
     nav{
         padding: 12px 4%;
     }
