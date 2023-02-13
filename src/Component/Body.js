@@ -1,6 +1,6 @@
 import Resturanatcard from "./Resturanatcard";
 import List from '../../Constant';
-import Whatapp from './Whatapp'
+
 let Body = () => {
     return (
         <>
@@ -11,7 +11,6 @@ let Body = () => {
                     return <Resturanatcard restList={data} />
                 })}
 
-                <Whatapp />
             </div>
 
         </>

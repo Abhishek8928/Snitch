@@ -8,6 +8,7 @@ let Resturanatcard = ({ restList }) => {
             <div className="card">
                 <div className="card-img">
                     <p className={minDeliveryTime <= 26 ? "Promoted mt-0 mb-0" : "d-none"}>Promoted</p>
+                    <p className={minDeliveryTime > 26 ? "try-one mt-0 mb-0" : "d-none"}>Must Try</p>
                     <img width="100%" src={"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" + cloudinaryImageId} alt="" />
                 </div>
                 <div className="card-body">
