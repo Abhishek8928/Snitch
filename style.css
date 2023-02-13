@@ -138,3 +138,15 @@ nav{
     font-size: 2.6rem;
     color:rgb(37, 175, 37);
 }
+
+@media (max-width:900px) {
+    nav{
+        padding: 12px 4%;
+    }
+    .footer-wrapper{
+        padding: 12px 4%;
+    }
+    .car-flex{
+        padding: 12px 4%;
+    }
+}
