@@ -144,9 +144,15 @@ nav{
         padding: 12px 4%;
     }
     .footer-wrapper{
-        padding: 12px 4%;
+        padding: 30px 4%;
     }
     .car-flex{
         padding: 12px 4%;
+    }
+    .card{
+        width:220px;
+        padding:20px;
+        margin: 10px 0px;
+        border: 1px solid #fff;
     }
 }
